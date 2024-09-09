@@ -136,3 +136,9 @@ input[type=button]:hover {
         top: -10vh;
     }
 }
+
+input[type=text]:focus {
+    border-color: #0ef;
+    box-shadow: 0 0 5px #0ef;
+    transition: box-shadow 0.3s ease-in-out;
+}
