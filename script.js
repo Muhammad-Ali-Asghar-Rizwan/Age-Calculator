@@ -61,5 +61,5 @@ function age() {
     const monthDiff = m2 - m1;
     const yearDiff = y2 - y1;
 
-    document.getElementById('age').innerHTML = `Your age is ${yearDiff} Years, ${monthDiff} Months, and ${dayDiff} Days.`;
+     document.getElementById('age').innerHTML = `Your age is ${yearDiff} Years`;
 }
